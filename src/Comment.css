@@ -1,0 +1,45 @@
+.comment-section {
+    width: 90vw;
+    max-width: 800px;
+    min-width: 280px;
+    margin: 3rem auto 0 auto;
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(99, 102, 241, 0.10);
+    padding: 2.2rem 1.2rem 1.7rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 2px solid #a78bfa;
+    position: relative;
+    box-sizing: border-box;
+}
+.comment-section input,
+.comment-section textarea {
+    width: 100%;
+    padding: 1em 1.2em;
+    font-size: 1.1em;
+    border-radius: 14px;
+    border: 2px solid #a78bfa;
+    background: #fff;
+    color: #23272f;
+    margin-bottom: 0.8em;
+    transition: border 0.2s, box-shadow 0.2s;
+    resize: none;
+    font-family: inherit;
+}
+.comment-section input:focus,
+.comment-section textarea:focus {
+    border: 2px solid #7c3aed;
+    outline: none;
+    box-shadow: 0 0 0 2px #a78bfa33;
+}
+.button-image.send-icon {
+    width: 3.5em;
+    height: 3.5em;
+    display: block;
+    margin: 0em auto 0.5em auto;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.2s;
+}
+/* .send-message styles removed since button is gone */

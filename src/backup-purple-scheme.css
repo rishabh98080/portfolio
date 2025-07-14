@@ -1,0 +1,49 @@
+/* BACKUP: Original Purple Color Scheme
+   To revert to purple colors, replace the blue colors in your CSS files with these:
+
+   Primary Purple: rgb(129, 66, 188)
+   Secondary Purple: #8a2be2
+   
+   Replace these blue colors:
+   #2563eb -> rgb(129, 66, 188)
+   #3b82f6 -> #8a2be2
+   rgba(37, 99, 235, ...) -> rgba(129, 66, 188, ...)
+*/
+
+/* Original purple color values:
+   - Primary: rgb(129, 66, 188)
+   - Secondary: #8a2be2
+   - Focus outline: rgba(129, 66, 188, 0.5)
+   - Button shadows: rgba(129, 66, 188, 0.3)
+   - Hover shadows: rgba(129, 66, 188, 0.4)
+*/
+
+/* Quick revert commands for each file:
+
+Header.css:
+- background-color: #2563eb -> background-color: rgb(129, 66, 188)
+- color: #2563eb -> color: rgb(129, 66, 188)
+
+Card.css:
+- background: linear-gradient(90deg, #2563eb, #3b82f6) -> background: linear-gradient(90deg, rgb(129, 66, 188), #8a2be2)
+- border: 4px solid #2563eb -> border: 4px solid rgb(129, 66, 188)
+- box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3) -> box-shadow: 0 8px 25px rgba(129, 66, 188, 0.3)
+- box-shadow: 0 12px 35px rgba(37, 99, 235, 0.4) -> box-shadow: 0 12px 35px rgba(129, 66, 188, 0.4)
+- border-color: #2563eb -> border-color: rgb(129, 66, 188)
+
+skill.css:
+- background: linear-gradient(90deg, #2563eb, #3b82f6) -> background: linear-gradient(90deg, rgb(129, 66, 188), #8a2be2)
+- border: 3px solid #2563eb -> border: 3px solid rgb(129, 66, 188)
+
+Comment.css:
+- background: linear-gradient(90deg, #2563eb, #3b82f6) -> background: linear-gradient(90deg, rgb(129, 66, 188), #8a2be2)
+- border-color: #2563eb -> border-color: rgb(129, 66, 188)
+- box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1) -> box-shadow: 0 0 0 3px rgba(129, 66, 188, 0.1)
+- background: linear-gradient(135deg, #2563eb, #3b82f6) -> background: linear-gradient(135deg, rgb(129, 66, 188), #8a2be2)
+- box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3) -> box-shadow: 0 4px 15px rgba(129, 66, 188, 0.3)
+- box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4) -> box-shadow: 0 8px 25px rgba(129, 66, 188, 0.4)
+- background: linear-gradient(135deg, #3b82f6, #2563eb) -> background: linear-gradient(135deg, #8a2be2, rgb(129, 66, 188))
+
+index.css:
+- outline: 2px solid rgba(37, 99, 235, 0.5) -> outline: 2px solid rgba(129, 66, 188, 0.5)
+*/ 

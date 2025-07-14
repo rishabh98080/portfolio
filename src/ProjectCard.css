@@ -1,0 +1,45 @@
+.project-card {
+  width: 90vw;
+  max-width: 480px;
+  min-width: 280px;
+  margin: 3rem auto 0 auto;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.10);
+  padding: 2.2rem 1.2rem 1.7rem 1.2rem;
+  text-align: center;
+  border: 1.5px solid #a78bfa;
+  box-sizing: border-box;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #23272f;
+}
+
+.project-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+  color: #7c3aed;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid #a78bfa;
+  transition: color 0.2s, border-color 0.2s;
+}
+.project-link:hover {
+  color: #23272f;
+  border-color: #7c3aed;
+  background: #ede9fe;
+}
+
+.project-bullets {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 400px;
+  font-size: 1.1rem;
+  color: #23272f;
+  padding-left: 20px;
+}

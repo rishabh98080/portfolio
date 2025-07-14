@@ -1,0 +1,57 @@
+/* Contact details card styles */
+.contact-details-card {
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.10);
+  border: 1.5px solid #a78bfa;
+  padding: 1.5rem 1.2rem;
+  width: 600px;
+  max-width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  font-size: 1.08rem;
+  color: #23272f;
+}
+
+.contact-row {
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #7c3aed;
+  min-width: 80px;
+}
+
+.contact-details-card a {
+  color: #7c3aed;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.contact-details-card a:hover {
+  color: #23272f;
+  background: #ede9fe;
+}
+.contact-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #7c3aed;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+#contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+  justify-content: flex-start;
+  padding-top: 2rem;
+}
